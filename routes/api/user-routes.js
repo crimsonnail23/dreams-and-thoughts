@@ -4,8 +4,10 @@ const{
     createUser
 } = require('../../controllers/user-controller')
 
+
+//GET All and POST users at /api/users
 router
-    .route('/users')
+    .route('/')
     .get(getAllUsers)
     .post(createUser);
 
