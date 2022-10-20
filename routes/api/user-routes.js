@@ -2,7 +2,8 @@ const router = require('express').Router();
 const{
     getAllUsers,
     createUser,
-    findUserById
+    findUserById,
+    updateUser
 } = require('../../controllers/user-controller')
 
 
@@ -12,10 +13,11 @@ router
     .get(getAllUsers)
     .post(createUser);
 
-//get a single user by their ID at /api/users/:id    
+//get a single user by their ID, update user at /api/users/:id    
 router
     .route('/:id')
     .get(findUserById)
+    .put(updateUser)
     
 
 module.exports = router;
