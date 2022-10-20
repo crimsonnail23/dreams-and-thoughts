@@ -15,7 +15,12 @@ const UserSchema = new Schema({
     },
     friends: [{type: Schema.Types.ObjectId,
                ref: 'User'     }],
-    //timestamp: true,
+    Thoughts: [
+    {
+        type: Schema.Types.ObjectId,
+        ref: 'Thoughts'
+    }
+    ],
     createdAt:{
         type: Date,
         default: Date.now
