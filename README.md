@@ -16,7 +16,7 @@ https://github.com/crimsonnail23/dreams-and-thoughts
 
 # video walkthrough
 
-
+https://drive.google.com/file/d/1bkYB-5Jl8x4tZQEL9LTeYhVwUYepyddZ/view
 
 # screenshot.
 
