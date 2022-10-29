@@ -11,7 +11,7 @@ const UserSchema = new Schema({
         type: String,
         require: true,
         unique: true,
-        match: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ 
+        match: /^([a-zA-Z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ 
     },
     friends: [{type: Schema.Types.ObjectId,
                ref: 'User'     }],
