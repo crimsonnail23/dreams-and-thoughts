@@ -2,5 +2,24 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.6.5"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "dreams-and-thoughts",
+  "description": "Social media is important in today's society. Buiilding a social media network is\r one way to promote and advertise various different products. However, for \r advertisers to want to advertise on your social media network, it needs a \r massive install base. And having a social media platform where users can\r freely share their thoughts on various subject matters is a good way to get a\r massive install base. This site will do just that. Users can create accounts \r post their thoughts and reactions to the world around them.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crimsonnail23/dreams-and-thoughts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crimsonnail23/dreams-and-thoughts/issues"
+  },
+  "homepage": "https://github.com/crimsonnail23/dreams-and-thoughts#readme"
 }
